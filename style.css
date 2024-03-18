@@ -1,0 +1,29 @@
+body {
+    background:slategrey;
+    background-image: url(https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Pure-CSS-Animated-Background.gif);
+}
+
+.welcome { 
+    font-size: 120px;
+    font-family:'Trebuchet MS';
+}
+
+.fade {
+    animation: fadeIn 5s;
+}
+
+
+
+#welcomebutton {
+    background-color: lightsteelblue;
+    border:none;
+    text-align:center;
+    color:white;
+    display:inline-block;
+    font-size: 30px;
+    opacity:100%;
+    transition: opacity 1s;
+    margin-left: 45%;
+    margin-top: 30%;
+
+}
