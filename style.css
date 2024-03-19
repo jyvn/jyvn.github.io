@@ -37,10 +37,10 @@ body {
 
 .yes, .no {
     margin: 0 80px; /* Adjust spacing between buttons */
-    padding: 10px 10px;
+    padding: 10px 20px;
     background-color: bisque;
     font-size: 25px;
-
+    border-radius: 15px;
     
 }
 .buttons {
@@ -57,13 +57,16 @@ body {
 #gif {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-bottom: -300px;
+    background-color: ;
 }
-
+img{
+    background-color: ;
+}
 #container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust as needed */
+    height: 800px; /* Adjust as needed */
   }
