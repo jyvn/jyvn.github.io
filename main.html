@@ -3,14 +3,23 @@
     <head>
         <title>Main page</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
-    <body>  
-        <header>
-            <ul>
-                <li>Projects</li>
-                <li>Resume</li>
+    <body class = "main_page">  
+            <ul class ="tabs">
+                <li data-tab-target ="#projects" class = "tab">Projects</li>
+                <li data-tab-target ="#Resume" class="tab">Resume</li>
             </ul>
-        </header>
+    <div class = "tab-content">
+        <div id = 'projects' data-tab-content class = "active">
+            <h1>Projects</h1>
+            <p>In this section, you can interact with all the projects I've made. Feel free to explore the projects below. </p>
+        </div>
+        <div id = 'Resume' data-tab-content>
+        <h1>Resume</h1>
+            <p>This section is a coded copy of my resume that has interactive links to my Linkedin and email.</p>
+        </div>    
+        </div>
 
 
 

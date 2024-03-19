@@ -6,8 +6,8 @@ body {
 .welcome { 
     font-size: 120px;
     font-family:'Trebuchet MS';
-    margin-left: 30%;
-    align:center;
+    text-align:center;
+    
 }
 .blank{
     background:white;
@@ -67,4 +67,45 @@ body {
     justify-content: center;
     align-items: center;
     height: 800px; /* Adjust as needed */
+  }
+
+  li {
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;  
+  }
+
+  .tabs {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+
+  .tab{
+    cursor: pointer;
+    padding: 10px;
+
+  }
+  .tab:hover{
+    background-color: #aaa;
+
+  }
+  .tab.active {
+    background-color: #ccc;
+  }
+  .main_page {
+    padding:0;
+    margin: 0;
+  }
+  .tab-content{
+    margin-left: 20px;
+    margin-right: 20px;
+
   }
