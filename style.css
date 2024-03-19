@@ -6,13 +6,12 @@ body {
 .welcome { 
     font-size: 120px;
     font-family:'Trebuchet MS';
+    margin-left: 30%;
+    align:center;
 }
-
-.fade {
-    animation: fadeIn 5s;
+.blank{
+    background:white;
 }
-
-
 
 #welcomebutton {
     background-color: lightsteelblue;
@@ -27,3 +26,44 @@ body {
     margin-top: 30%;
 
 }
+
+#mmm {
+    margin-left: 95%;
+    margin-top: 40%;
+    background-color: bisque;
+    display: inline;
+
+}
+
+.yes, .no {
+    margin: 0 80px; /* Adjust spacing between buttons */
+    padding: 10px 10px;
+    background-color: bisque;
+    font-size: 25px;
+
+    
+}
+.buttons {
+    margin: auto;
+    display:inline;
+    text-align: center;
+}
+
+.hello{
+    font-size: 40px;
+    font-family: 'comic sans ms'
+}
+
+#gif {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
