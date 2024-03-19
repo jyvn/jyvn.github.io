@@ -58,11 +58,9 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: -300px;
-    background-color: ;
+    
 }
-img{
-    background-color: ;
-}
+
 #container {
     display: flex;
     flex-direction: column;
